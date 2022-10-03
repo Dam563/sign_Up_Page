@@ -1,0 +1,109 @@
+@media (max-width: 425px) {
+    /* h1{
+        margin-top: 20px !important;
+        font-size: 25px !important;
+        padding-top: 10px;
+    }
+    .my_form{
+        margin-top: 20px !important;
+        width: 70% !important;
+        margin-bottom: 5px !important;
+    }
+    .form_1{
+        margin-left: 15px !important;
+    }
+    input{
+        margin-bottom: 5px;
+        width: 80% !important;
+        height: 30px !important;
+    }
+    .submit_btn{
+        width: 50% !important;
+        margin-bottom: 15px !important;
+        font-size: 17px !important;
+
+    } */
+    body{
+        height: auto;
+    }
+    .my_form{
+        margin-left: 20px !important;
+        width: 80% !important;
+        margin-bottom: 15px !important;
+    }
+    input{
+        width: 90% !important;
+    }
+    .submit_btn{
+        width: 50% !important;
+        margin-bottom: 10px !important;
+    }
+    p, a{
+        font-size: 15px !important;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+background-image: url(./Images/photo-1497864149936-d3163f0c0f4b.avif);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 20px;
+    margin-top: 30px;
+    color: teal;
+}
+p{
+    font-size: 20px;
+    color: white;
+}
+a{
+    /* text-decoration: none; */
+    font-size: 20px;
+    color: khaki;
+    padding-left: 5px;
+}
+.my_form{
+    width: 50%;
+    margin-left: 550px;
+    /* margin-right: auto; */
+    height: auto;
+    margin-top: 10px;
+    /* background-color: khaki; */
+    /* margin-bottom: 20px; */
+}
+.form_1{
+    margin-left: 10px;
+    padding-top: 20px;
+}
+input{
+    width: 50%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    font-size: 15px;
+    height: 35px;
+    border: 1px solid blanchedalmond;
+    background-color: white;
+    border-radius: 7px;
+    border-color: blanchedalmond;
+}
+.submit_btn{
+    margin-top: 15px;
+    width: 20%;
+    padding: 10px 10px;
+    background-color: sandybrown;
+    margin-bottom: 20px;
+    border: 1px solid sandybrown;
+    font-size: 20px;
+    border-radius: 7px;
+}
